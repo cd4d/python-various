@@ -77,7 +77,7 @@ def display_hangman(counter=0):
 # clear the screen https://www.quora.com/Is-there-a-Clear-screen-function-in-Python
 def clear_screen():
     '''Clear the screen
-    Checks the whether Windows or Macos/Linux us running the program and clears the screen accordingly
+    Checks whether Windows or Macos/Linux is running the program and clears the screen accordingly
     '''
     os.system('cls' if os.name == 'nt' else 'clear')
 
